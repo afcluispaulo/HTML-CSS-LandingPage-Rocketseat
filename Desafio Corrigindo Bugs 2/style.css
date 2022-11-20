@@ -9,17 +9,17 @@ body {
   }
   
   .page {
-    width: 600px;
+    width: 1280px;
     margin: 0 auto;
     padding-top: 65px;
   }
   
   nav {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
   
-    margin-bottom: 15px;
+    margin-bottom: 106px;
   }
   
   ul {
@@ -27,6 +27,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 48px;
   }
   
   a {
@@ -46,6 +47,11 @@ body {
   h1,
   ul {
     font-family: "Mulish", sans-serif;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
   }
   
   h1 {
@@ -67,8 +73,8 @@ body {
     font-size: 14px;
     line-height: 28px;
     color: #7d7987;
-  
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   button {
@@ -80,9 +86,11 @@ body {
     padding: 0 50px 30px;
   
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
-  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px 15px;
+    gap: 10px;
     border-radius: 4px;
   
     cursor: pointer;
