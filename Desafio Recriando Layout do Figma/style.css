@@ -1,0 +1,51 @@
+body {
+   background: #2C2B3D;
+}
+
+header {
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    margin:  71px  auto;
+    width: 1083px;
+    height: 720px;
+    
+}
+
+.logo-menu {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 64px; 
+    list-style: none;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+    margin-top: 101px;
+    
+}
+
+aside p {
+    color: #FFFF;
+    text-align: center;
+    
+}
+footer {
+    margin-bottom: 24px;
+}
+
+footer p {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+
