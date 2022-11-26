@@ -48,6 +48,9 @@ aside {
     width: 1092px;
 }
 
+
+
+
 aside h1, 
 aside p {
     color: #FFFF;
@@ -64,6 +67,19 @@ aside h1 {
 
 aside h1 span {
     color: #00BFA6;
+}
+
+aside p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #7D7987; 
+}
+
+aside p span {
+    color: #C2C2C2;
 }
 footer {
     margin-bottom: 24px;
