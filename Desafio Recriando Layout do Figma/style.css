@@ -91,19 +91,24 @@ aside p {
 aside p span {
     color: #C2C2C2;
 }
+
 footer {
+    display: flex;
+    justify-content: center;
     margin-bottom: 24px;
 }
 
 footer p {
     color: #FFFF;
 
-    display: flex;
-    justify-content: center;
+    
 
     font-family: 'JetBrains Mono';
     font-weight: 500;
     font-size: 14px;
     line-height: 28px;
+
+    border-top: 1px solid #00BFA6;
+    padding-top: 27px;
 }
 
