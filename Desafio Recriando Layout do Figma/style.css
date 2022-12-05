@@ -54,8 +54,6 @@ aside {
 }
 
 
-
-
 aside h1, 
 aside p {
     color: #FFFF;
@@ -80,7 +78,7 @@ aside h1 span {
 }
 
 aside p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -101,14 +99,18 @@ footer {
 footer p {
     color: #FFFF;
 
-    
-
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 28px;
 
     border-top: 1px solid #00BFA6;
     padding-top: 27px;
+}
+
+.padlock-bottom {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 
